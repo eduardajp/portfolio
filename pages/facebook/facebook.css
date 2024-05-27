@@ -1,0 +1,102 @@
+html,body{
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100%;
+    font-family: arial;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+button{
+    padding:20px;
+    background: color #3b5998;
+    border:0;
+    color: #000000;
+    font-family: arial;
+    border-radius:5px;
+}
+
+
+article{
+    width:40%;
+    height:40%;
+
+}
+
+article p{
+    margin:0;
+    font-size: 1.1em;
+    padding:0;
+
+}
+
+article h1{
+    margin:0;
+    font-size:2em;
+    color:#3b5998;
+    
+}
+
+div{
+    height: 50%;
+    width: 27%;
+    border:1px #3b5998 solid;
+    
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 0.5em color gray;
+    border:0px;
+    border-radius: 5px;
+}
+
+
+
+.entrar{
+    background-color:#3b5998;
+    width:80%;
+    margin-top: 2vw;
+}
+
+.conta{
+    background-color: rgb(24, 133, 24);
+    margin-top: 1vw;
+
+}
+
+.senha{
+    color:#3b5998;
+    background-color: white;
+    margin-bottom: 1vw;
+    width:80%;
+    margin-top: 0.2vw;
+
+}
+
+form input{
+    margin-bottom: 1px;
+    width: 80%;
+    height: 2vw;
+    margin-top: 2vw;
+}
+div article{
+    display: flex;
+    align-items: top;
+    width: 120%;
+        
+}
+.face p{
+    font-size: 1.5vw;
+}
+.face h1{
+    font-size: 3vw;
+    color: rgb(43, 92, 184);
+}
