@@ -1,0 +1,53 @@
+html,body{
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100%;
+    font-family: arial;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+button{
+    padding:20px;
+    background: color #3b5998;
+    border:0;
+    color: #000000;
+    font-family: arial;
+    border-radius:5px;
+}
+
+
+article{
+    width:40%;
+    height:40%;
+
+}
+
+article p{
+    margin:0;
+    font-size: 1.1em;
+    padding:0;
+    height:
+}
+
+article h1{
+    margin:0;
+    font-size:2em;
+    color:#3b5998;
+    
+}
+
+div{
+    width: 25%;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
